@@ -1,0 +1,37 @@
+div.options-container {
+  border-radius: 0 0 4px 4px !important;
+  box-shadow: 0 14px 20px rgba(0, 0, 0, 0.2) !important;
+  transform: translateY(-2px) !important;
+  max-height: 224px !important;
+  padding-right: unset !important;
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  overflow: auto;
+}
+
+div.options-container ul li {
+  font-family: 'Roboto';
+  font-size: 1rem;
+  padding: 1rem 0.75rem;
+  cursor: pointer;
+  border-top: 1px solid #ddd;
+}
+
+div.options-container ul li:hover {
+  background-color: #eee;
+}
+div.options-container::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 8px;
+}
+
+div.options-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+div.options-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 8px;
+  height: 20px;
+}
